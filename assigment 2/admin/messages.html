@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel - Messages</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="messages.css">
+</head>
+<body>
+
+<div class="admin-container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2>WebPlay Admin</h2>
+        <ul>
+            <li><a href="users.html">Users</a></li>
+            <li><a href="messages.html" class="active">Messages</a></li>
+            
+            <li><a href="home.html">Logout</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <h1>User Messages</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>User</th>
+                    <th>Email</th>
+                    <th>Message</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John</td>
+                    <td>john@gmail.com</td>
+                    <td>Great website! I love the games.</td>
+                    <td>
+                        <button class="reply-btn">Reply</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Sarah</td>
+                    <td>sarah@gmail.com</td>
+                    <td>How can I upload my own game?</td>
+                    <td>
+                        <button class="reply-btn">Reply</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Reply Box -->
+        <div class="reply-box">
+            <h2>Reply to Message</h2>
+            <textarea placeholder="Type your reply here..."></textarea>
+            <button class="send-btn">Send Reply</button>
+        </div>
+
+    </main>
+
+</div>
+
+</body>
+</html>

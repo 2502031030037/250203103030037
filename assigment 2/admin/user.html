@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel - Users</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+
+<div class="admin-container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <h2>WebPlay Admin</h2>
+        <ul>
+            <li><a href="users.html" class="active">Users</a></li>
+            <li><a href="messages.html">Messages</a></li>
+            <li><a href="home.html">Logout</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <h1>Registered Users</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>John Smith</td>
+                    <td>john@gmail.com</td>
+                    <td>Active</td>
+                    <td>
+                        <button class="update-btn">Update</button>
+                        <button class="delete-btn">Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Sarah Lee</td>
+                    <td>sarah@gmail.com</td>
+                    <td>Blocked</td>
+                    <td>
+                        <button class="update-btn">Update</button>
+                        <button class="delete-btn">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+
+</div>
+
+</body>
+</html>
